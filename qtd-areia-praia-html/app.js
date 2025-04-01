@@ -2,7 +2,7 @@
 principal();
 
 function principal(){
-    mensagens("Seja bem vindo ao site que te auxilia na estimativa de grãos de areia da sua praia!");
+    mensagens("Seja bem vindo ao software de estimativa de grãos de areia!");
     let comprimento = pegandoValores("Me informe o comprimento da faixa de areia da praia:");
     comprimento = conversaoUnidade(comprimento);
     let largura = pegandoValores("Me informe a largura da faixa de areia da praia:");
